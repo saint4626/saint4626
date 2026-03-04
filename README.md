@@ -1,15 +1,15 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=220&text=saint4626&font=Geist&fontSize=52&fontAlignY=40&animation=fadeIn&fontColor=ffffff&stroke=C084FC&strokeWidth=1&color=0:1a1b27,50:C084FC,100:F8A4D8&desc=Rust%20%C2%B7%20Go%20%C2%B7%20Tauri%20%C2%B7%20Vue&descAlignY=64&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&height=220&text=saint4626&font=Space%20Grotesk&fontSize=52&fontAlignY=40&animation=fadeIn&fontColor=ffffff&stroke=C084FC&strokeWidth=1&color=0:1a1b27,50:C084FC,100:F8A4D8&desc=Rust%20%C2%B7%20Go%20%C2%B7%20Tauri%20%C2%B7%20Vue&descAlignY=64&descSize=16" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=600&size=15&pause=1400&color=C084FC&center=true&vCenter=true&width=760&height=42&lines=Building+clean+desktop+%26+mobile+experiences;Rust-first+mindset+with+Tauri+%2B+Vue3;Indie+gamedev+with+Unity+%26+Blender)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=15&pause=1400&color=C084FC&center=true&vCenter=true&width=760&height=42&lines=Building+clean+desktop+%26+mobile+experiences;Rust-first+mindset+with+Tauri+%2B+Vue3;Indie+gamedev+with+Unity+%26+Blender)](https://git.io/typing-svg)
 
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=700&size=24&duration=1&pause=100000&color=E9D5FF&center=true&vCenter=true&width=300&height=38&lines=About+Me" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=24&duration=1&pause=100000&color=E9D5FF&center=true&vCenter=true&width=300&height=38&lines=About+Me" />
 </div>
 
 <div align="center">
@@ -40,37 +40,45 @@
 ---
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=700&size=24&duration=1&pause=100000&color=E9D5FF&center=true&vCenter=true&width=300&height=38&lines=My+Stack" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=24&duration=1&pause=100000&color=E9D5FF&center=true&vCenter=true&width=300&height=38&lines=My+Stack" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=700&size=18&duration=1&pause=100000&color=C084FC&center=true&vCenter=true&width=200&height=32&lines=Languages" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=18&duration=1&pause=100000&color=C084FC&center=true&vCenter=true&width=200&height=32&lines=Languages" />
 </div>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=rust,go,ts,js&theme=dark&perline=8" />
+  <img src="https://skillicons.dev/icons?i=rust,go,ts,js,html,css&theme=dark&perline=8" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=700&size=18&duration=1&pause=100000&color=C084FC&center=true&vCenter=true&width=300&height=32&lines=Frameworks+%26+Tools" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=18&duration=1&pause=100000&color=C084FC&center=true&vCenter=true&width=300&height=32&lines=Frameworks+%26+Tools" />
 </div>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=vue,tauri,nuxt,astro,unity,blender,androidstudio&theme=dark&perline=8" />
+  <img src="https://skillicons.dev/icons?i=vue,tauri,nuxt,astro,unity,blender,androidstudio,figma,ps&theme=dark&perline=9" />
+</div>
+
+
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=18&duration=1&pause=100000&color=C084FC&center=true&vCenter=true&width=220&height=32&lines=Applications" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=700&size=18&duration=1&pause=100000&color=C084FC&center=true&vCenter=true&width=220&height=32&lines=Environment" />
+  <img src="https://skillicons.dev/icons?i=vscode,docker,github,windows&theme=dark&perline=8" />
 </div>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=vscode,github,windows&theme=dark&perline=8" />
+  <img src="https://img.shields.io/badge/Antigravity%20IDE-1a1b27?style=for-the-badge&logoColor=C084FC&labelColor=111111&color=1a1b27" />
+  <img src="https://img.shields.io/badge/Kiro%20IDE-1a1b27?style=for-the-badge&logoColor=C084FC&labelColor=111111&color=1a1b27" />
+  <img src="https://img.shields.io/badge/Trae%20IDE-1a1b27?style=for-the-badge&logoColor=C084FC&labelColor=111111&color=1a1b27" />
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=700&size=24&duration=1&pause=100000&color=E9D5FF&center=true&vCenter=true&width=420&height=38&lines=Featured+Project" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=24&duration=1&pause=100000&color=E9D5FF&center=true&vCenter=true&width=420&height=38&lines=Featured+Project" />
 </div>
 
 <div align="center">
@@ -86,7 +94,7 @@
 ---
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=700&size=24&duration=1&pause=100000&color=E9D5FF&center=true&vCenter=true&width=380&height=38&lines=GitHub+Stats" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=24&duration=1&pause=100000&color=E9D5FF&center=true&vCenter=true&width=380&height=38&lines=GitHub+Stats" />
 </div>
 
 
@@ -99,7 +107,7 @@
 ---
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=700&size=24&duration=1&pause=100000&color=E9D5FF&center=true&vCenter=true&width=420&height=38&lines=Activity+Graph" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=24&duration=1&pause=100000&color=E9D5FF&center=true&vCenter=true&width=420&height=38&lines=Activity+Graph" />
 </div>
 
 <div align="center">
@@ -111,7 +119,7 @@
 ---
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=700&size=24&duration=1&pause=100000&color=E9D5FF&center=true&vCenter=true&width=480&height=38&lines=Contribution+Snake" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=24&duration=1&pause=100000&color=E9D5FF&center=true&vCenter=true&width=480&height=38&lines=Contribution+Snake" />
 </div>
 
 <div align="center">
