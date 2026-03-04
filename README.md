@@ -75,7 +75,8 @@
 
 <div align="center">
 
-[![Reticle Card](https://github-readme-stats.vercel.app/api/pin/?username=saint4626&repo=reticle-releases&theme=tokyonight&border_color=C084FC&title_color=C084FC&icon_color=F8A4D8)](https://github.com/saint4626/reticle-releases)
+[![Reticle](https://img.shields.io/badge/📦_Reticle-reticle.ru-C084FC?style=for-the-badge)](https://reticle.ru)
+[![GitHub](https://img.shields.io/github/stars/saint4626/reticle-releases?style=for-the-badge&color=C084FC&logo=github)](https://github.com/saint4626/reticle-releases)
 
 > <img src="https://api.iconify.design/lucide/monitor.svg?color=%23C084FC" width="16" valign="middle" /> **[reticle.ru](https://reticle.ru)** — Free screenshot & screen recorder for Windows 10/11  
 > Built with **Rust · Tauri · Vue3** — fast, lightweight, no bloat
@@ -88,12 +89,6 @@
   <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=700&size=24&duration=1&pause=100000&color=E9D5FF&center=true&vCenter=true&width=380&height=38&lines=GitHub+Stats" />
 </div>
 
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=saint4626&show_icons=true&theme=tokyonight&border_color=C084FC&title_color=C084FC&icon_color=F8A4D8&text_color=ffffff&hide_border=false&count_private=true" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saint4626&layout=compact&theme=tokyonight&border_color=C084FC&title_color=C084FC&text_color=ffffff&hide_border=false" height="165"/>
-
-</div>
 
 <div align="center">
 
