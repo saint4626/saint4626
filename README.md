@@ -2,14 +2,14 @@
 
 <img src="https://capsule-render.vercel.app/api?type=venom&height=220&text=saint4626&font=Geist&fontSize=52&fontAlignY=40&animation=fadeIn&fontColor=ffffff&stroke=C084FC&strokeWidth=1&color=0:1a1b27,50:C084FC,100:F8A4D8&desc=Rust%20%C2%B7%20Go%20%C2%B7%20Tauri%20%C2%B7%20Vue&descAlignY=64&descSize=16" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=600&size=15&pause=1400&color=C084FC&center=true&vCenter=true&width=760&height=42&lines=Building+clean+desktop+%26+mobile+experiences+%E2%9C%A8;Rust-first+mindset+with+Tauri+%2B+Vue3+%F0%9F%9A%80;Indie+gamedev+with+Unity+%26+Blender+%F0%9F%8E%AE)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=600&size=15&pause=1400&color=C084FC&center=true&vCenter=true&width=760&height=42&lines=Building+clean+desktop+%26+mobile+experiences;Rust-first+mindset+with+Tauri+%2B+Vue3;Indie+gamedev+with+Unity+%26+Blender)](https://git.io/typing-svg)
 
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=700&size=24&duration=1&pause=100000&color=E9D5FF&center=true&vCenter=true&width=300&height=38&lines=%E2%9C%A6+About+Me+%E2%9C%A6" />
+  <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=700&size=24&duration=1&pause=100000&color=E9D5FF&center=true&vCenter=true&width=300&height=38&lines=About+Me" />
 </div>
 
 <div align="center">
@@ -20,19 +20,19 @@
 
 <table align="center">
   <tr>
-    <td>🖥️ Current Project</td>
+    <td><img src="https://api.iconify.design/lucide/monitor.svg?color=%23C084FC" width="16" valign="middle" /> Current Project</td>
     <td><strong><a href="https://reticle.ru">Reticle</a></strong> — screenshot & screen recorder for Windows</td>
   </tr>
   <tr>
-    <td>⚙️ Core Stack</td>
+    <td><img src="https://api.iconify.design/mdi/cog-outline.svg?color=%23C084FC" width="16" valign="middle" /> Core Stack</td>
     <td><strong>Rust + Tauri + Vue3</strong></td>
   </tr>
   <tr>
-    <td>🎮 Side Track</td>
+    <td><img src="https://api.iconify.design/mdi/controller-classic-outline.svg?color=%23C084FC" width="16" valign="middle" /> Side Track</td>
     <td>Indie experiments in <strong>Unity + Blender</strong></td>
   </tr>
   <tr>
-    <td>📍 Location</td>
+    <td><img src="https://api.iconify.design/mdi/map-marker-outline.svg?color=%23C084FC" width="16" valign="middle" /> Location</td>
     <td><strong>Moscow, Russia</strong></td>
   </tr>
 </table>
@@ -40,7 +40,7 @@
 ---
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=700&size=24&duration=1&pause=100000&color=E9D5FF&center=true&vCenter=true&width=300&height=38&lines=%E2%9C%A6+My+Stack+%E2%9C%A6" />
+  <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=700&size=24&duration=1&pause=100000&color=E9D5FF&center=true&vCenter=true&width=300&height=38&lines=My+Stack" />
 </div>
 
 <div align="center">
@@ -70,22 +70,22 @@
 ---
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=700&size=24&duration=1&pause=100000&color=E9D5FF&center=true&vCenter=true&width=420&height=38&lines=%E2%9C%A6+Featured+Project+%E2%9C%A6" />
+  <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=700&size=24&duration=1&pause=100000&color=E9D5FF&center=true&vCenter=true&width=420&height=38&lines=Featured+Project" />
 </div>
 
 <div align="center">
 
 [![Reticle Card](https://github-readme-stats.vercel.app/api/pin/?username=saint4626&repo=reticle-releases&theme=tokyonight&border_color=C084FC&title_color=C084FC&icon_color=F8A4D8)](https://github.com/saint4626/reticle-releases)
 
-> 🖥️ **[reticle.ru](https://reticle.ru)** — Free screenshot & screen recorder for Windows 10/11  
-> Built with **Rust · Tauri · Vue3** — fast, lightweight, no bloat ✨
+> <img src="https://api.iconify.design/lucide/monitor.svg?color=%23C084FC" width="16" valign="middle" /> **[reticle.ru](https://reticle.ru)** — Free screenshot & screen recorder for Windows 10/11  
+> Built with **Rust · Tauri · Vue3** — fast, lightweight, no bloat
 
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=700&size=24&duration=1&pause=100000&color=E9D5FF&center=true&vCenter=true&width=380&height=38&lines=%E2%9C%A6+GitHub+Stats+%E2%9C%A6" />
+  <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=700&size=24&duration=1&pause=100000&color=E9D5FF&center=true&vCenter=true&width=380&height=38&lines=GitHub+Stats" />
 </div>
 
 <div align="center">
@@ -104,7 +104,7 @@
 ---
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=700&size=24&duration=1&pause=100000&color=E9D5FF&center=true&vCenter=true&width=420&height=38&lines=%E2%9C%A6+Activity+Graph+%E2%9C%A6" />
+  <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=700&size=24&duration=1&pause=100000&color=E9D5FF&center=true&vCenter=true&width=420&height=38&lines=Activity+Graph" />
 </div>
 
 <div align="center">
@@ -116,7 +116,7 @@
 ---
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=700&size=24&duration=1&pause=100000&color=E9D5FF&center=true&vCenter=true&width=480&height=38&lines=%E2%9C%A6+Contribution+Snake+%E2%9C%A6" />
+  <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=700&size=24&duration=1&pause=100000&color=E9D5FF&center=true&vCenter=true&width=480&height=38&lines=Contribution+Snake" />
 </div>
 
 <div align="center">
