@@ -31,10 +31,6 @@
     <td><img src="https://api.iconify.design/mdi/controller-classic-outline.svg?color=%23C084FC" width="16" valign="middle" /> Side Track</td>
     <td>Indie experiments in <strong>Unity + Blender</strong></td>
   </tr>
-  <tr>
-    <td><img src="https://api.iconify.design/mdi/map-marker-outline.svg?color=%23C084FC" width="16" valign="middle" /> Location</td>
-    <td><strong>Moscow, Russia</strong></td>
-  </tr>
 </table>
 
 ---
