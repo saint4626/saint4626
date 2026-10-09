@@ -1,21 +1,60 @@
-name: Generate Snake
+name: Build profile activity
+
 on:
-  schedule: [{ cron: "0 0 * * *" }]
+  schedule:
+    - cron: "0 0 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/snake.yml"
+
+concurrency:
+  group: profile-activity
+  cancel-in-progress: true
 
 jobs:
   snake:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     permissions:
       contents: write
     steps:
-      - uses: Platane/snk@v3
+      - name: Generate monochrome contribution animations
+        uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
         with:
           github_user_name: saint4626
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
+            dist/github-contribution-grid-snake.svg?palette=github-light&color_snake=#000000&color_dots=#ededed,#a1a1a1,#737373,#404040,#262626&color_dot_border=#d4d4d4
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#ededed&color_dots=#262626,#404040,#737373,#a1a1a1,#ededed&color_dot_border=#262626
+      - name: Add static snapshots and reduced-motion support
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+
+          paths = sorted(Path("dist").glob("*.svg"))
+          if len(paths) != 2:
+              raise RuntimeError("Expected both light and dark contribution graphs")
+          frozen = "*{animation:none!important}.s,.u{display:none}"
+          for path in paths:
+              source = path.read_text()
+              if "</style>" not in source:
+                  raise RuntimeError(f"No style block in {path}")
+              static = source.replace("</style>", frozen + "</style>", 1)
+              animated = source.replace(
+                  "</style>",
+                  "@media (prefers-reduced-motion:reduce){" + frozen + "}</style>",
+                  1,
+              )
+              ET.fromstring(static)
+              ET.fromstring(animated)
+              path.with_name(path.stem + "-static.svg").write_text(static)
+              path.write_text(animated)
+          PY
+      - name: Publish profile assets
+        uses: crazy-max/ghaction-github-pages@5859b4ea7efe6b470a5b19c570460eae9323aefc # v3
         with:
           target_branch: output
           build_dir: dist
