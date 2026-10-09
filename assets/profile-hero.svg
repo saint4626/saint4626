@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Momonth · saint4626 — Software &amp; interfaces</title>
+  <desc id="desc">A restrained monochrome header with large typography and abstract geometric linework.</desc>
+  <rect width="1200" height="360" rx="8" fill="#000000"/>
+  <rect x="0.5" y="0.5" width="1199" height="359" rx="7.5" stroke="#262626"/>
+  <path d="M48 77H1152M48 286H1152" stroke="#262626"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="48" y="48" fill="#A1A1A1" font-size="12" letter-spacing="2.3">SOFTWARE &amp; INTERFACES</text>
+    <text x="48" y="187" fill="#EDEDED" font-size="82" font-weight="500" letter-spacing="-4">Momonth</text>
+    <text x="51" y="235" fill="#A1A1A1" font-size="23" letter-spacing="-0.3">Thoughtful tools. Clear experiences.</text>
+    <text x="48" y="326" fill="#A1A1A1" font-size="13" letter-spacing="0.3">DESKTOP / WEB / INTERACTIVE</text>
+  </g>
+  <g font-family="Consolas, 'Liberation Mono', monospace" fill="#A1A1A1" font-size="13">
+    <text x="1152" y="48" text-anchor="end">saint4626</text>
+    <text x="1152" y="326" text-anchor="end">01 / BUILD</text>
+  </g>
+  <g stroke="#262626" stroke-width="1">
+    <path d="M880 101V262M934 101V262M988 101V262M1042 101V262M1096 101V262"/>
+    <path d="M859 127H1117M859 181H1117M859 235H1117"/>
+  </g>
+  <g stroke-width="1.4">
+    <path d="M907 127H1015V235H907Z" stroke="#737373"/>
+    <path d="M961 101H1069V209H961Z" stroke="#EDEDED"/>
+    <path d="M907 127L961 101M1015 127L1069 101M1015 235L1069 209M907 235L961 209" stroke="#A1A1A1"/>
+  </g>
+  <circle cx="961" cy="101" r="3" fill="#EDEDED"/>
+  <circle cx="1015" cy="235" r="3" fill="#A1A1A1"/>
+</svg>
