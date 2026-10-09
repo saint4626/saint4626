@@ -33,6 +33,7 @@ jobs:
           python3 - <<'PY'
           from pathlib import Path
           import xml.etree.ElementTree as ET
+          import re
 
           paths = sorted(Path("dist").glob("*.svg"))
           if len(paths) != 2:
@@ -40,11 +41,35 @@ jobs:
           destination = Path("published")
           destination.mkdir(exist_ok=True)
           frozen = "*{animation:none!important}.s,.u{display:none}"
+          def static_snapshot(source):
+              root = ET.fromstring(source)
+              style = next(node for node in root if node.tag.endswith("style"))
+              css = style.text or ""
+              variables = dict(re.findall(r"(--[\w-]+):([^;}]+)", css))
+              fills = dict(re.findall(r"\.c\.([\w-]+)\{fill:var\((--[\w-]+)\)", css))
+              root.remove(style)
+              for parent in list(root.iter()):
+                  for node in list(parent):
+                      classes = node.get("class", "").split()
+                      if "s" in classes or "u" in classes:
+                          parent.remove(node)
+                          continue
+                      if "c" in classes:
+                          variable = next((fills[c] for c in classes if c in fills), "--ce")
+                          node.set("fill", variables[variable])
+                          node.set("stroke", variables["--cb"])
+                          node.set("stroke-width", "1")
+                          node.set("width", "12")
+                          node.set("height", "12")
+                          node.attrib.pop("class", None)
+              ET.register_namespace("", "http://www.w3.org/2000/svg")
+              return ET.tostring(root, encoding="unicode")
+
           for path in paths:
               source = path.read_text()
               if "</style>" not in source:
                   raise RuntimeError(f"No style block in {path}")
-              static = source.replace("</style>", frozen + "</style>", 1)
+              static = static_snapshot(source)
               animated = source.replace(
                   "</style>",
                   "@media (prefers-reduced-motion:reduce){" + frozen + "}</style>",
