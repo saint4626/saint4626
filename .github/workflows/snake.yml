@@ -37,6 +37,8 @@ jobs:
           paths = sorted(Path("dist").glob("*.svg"))
           if len(paths) != 2:
               raise RuntimeError("Expected both light and dark contribution graphs")
+          destination = Path("published")
+          destination.mkdir(exist_ok=True)
           frozen = "*{animation:none!important}.s,.u{display:none}"
           for path in paths:
               source = path.read_text()
@@ -50,13 +52,13 @@ jobs:
               )
               ET.fromstring(static)
               ET.fromstring(animated)
-              path.with_name(path.stem + "-static.svg").write_text(static)
-              path.write_text(animated)
+              (destination / (path.stem + "-static.svg")).write_text(static)
+              (destination / path.name).write_text(animated)
           PY
       - name: Publish profile assets
         uses: crazy-max/ghaction-github-pages@5859b4ea7efe6b470a5b19c570460eae9323aefc # v3
         with:
           target_branch: output
-          build_dir: dist
+          build_dir: published
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
