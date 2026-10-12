@@ -28,6 +28,8 @@ Phoenix · LiveKit · PostgreSQL · Docker · Linux
 
 ## GitHub activity
 
+Original author of the [Steam lobby](https://github.com/dooly123/Basis-Steam-Lobby-Package#credits) and [relay transport](https://github.com/dooly123/Basis-Steam-Transport-Package#credits) integrations for Basis, later adapted into standalone packages.
+
 <a href="https://github.com/saint4626?tab=overview">
   <picture>
     <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/saint4626/saint4626/output/github-contribution-grid-snake-dark-static.svg" />
